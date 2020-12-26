@@ -4,7 +4,6 @@
   <strong>Title:</strong>
   <%= @article.title %>
 </p>
-
 <p>
   <strong>Author:</strong>
   <%= @article.author %>
@@ -15,30 +14,26 @@
   <%= @article.author %>
 </p>
 
+
 <p>
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
-
 <p>
   <strong>Credit:</strong>
   <%= @article.credit %>
 </p>
-
 <p>
   <strong>Cost:</strong>
   <%= @article.cost %>
 </p>
-
 <p>
   <strong>Tax:</strong>
   <%= @article.tax %>
 </p>
-
 <p>
   <strong>Price:</strong>
   <%= @article.price %>
 </p>
-
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
